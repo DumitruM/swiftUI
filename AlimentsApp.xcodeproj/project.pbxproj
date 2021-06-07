@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47E77B3B26163C8700017487 /* AlimentsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E77B3A26163C8700017487 /* AlimentsAppApp.swift */; };
-		47E77B3D26163C8700017487 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E77B3C26163C8700017487 /* ContentView.swift */; };
+		47E77B3D26163C8700017487 /* AlimentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E77B3C26163C8700017487 /* AlimentDetail.swift */; };
 		47E77B3F26163C8700017487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E77B3E26163C8700017487 /* Assets.xcassets */; };
 		47E77B4226163C8700017487 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E77B4126163C8700017487 /* Preview Assets.xcassets */; };
+		47E77B4B26163CA600017487 /* Aliment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E77B4A26163CA600017487 /* Aliment.swift */; };
+		47E77B4F2616416800017487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E77B4E2616416800017487 /* AppDelegate.swift */; };
+		47E77B522616417000017487 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E77B512616417000017487 /* SceneDelegate.swift */; };
+		47E77B552616443900017487 /* StatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E77B542616443900017487 /* StatText.swift */; };
+		47E77B582616470E00017487 /* AlimentsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E77B572616470E00017487 /* AlimentsList.swift */; };
+		47E77B5B2616476200017487 /* AlimentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E77B5A2616476200017487 /* AlimentRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		47E77B3726163C8700017487 /* AlimentsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlimentsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		47E77B3A26163C8700017487 /* AlimentsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlimentsAppApp.swift; sourceTree = "<group>"; };
-		47E77B3C26163C8700017487 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47E77B3C26163C8700017487 /* AlimentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlimentDetail.swift; sourceTree = "<group>"; };
 		47E77B3E26163C8700017487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47E77B4126163C8700017487 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		47E77B4326163C8700017487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E77B4A26163CA600017487 /* Aliment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aliment.swift; sourceTree = "<group>"; };
+		47E77B4E2616416800017487 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47E77B512616417000017487 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47E77B542616443900017487 /* StatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatText.swift; sourceTree = "<group>"; };
+		47E77B572616470E00017487 /* AlimentsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlimentsList.swift; sourceTree = "<group>"; };
+		47E77B5A2616476200017487 /* AlimentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlimentRow.swift; sourceTree = "<group>"; };
+		47E77BF126164E1D00017487 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +62,15 @@
 		47E77B3926163C8700017487 /* AlimentsApp */ = {
 			isa = PBXGroup;
 			children = (
-				47E77B3A26163C8700017487 /* AlimentsAppApp.swift */,
-				47E77B3C26163C8700017487 /* ContentView.swift */,
+				47E77B4E2616416800017487 /* AppDelegate.swift */,
+				47E77B512616417000017487 /* SceneDelegate.swift */,
+				47E77B3C26163C8700017487 /* AlimentDetail.swift */,
+				47E77B542616443900017487 /* StatText.swift */,
 				47E77B3E26163C8700017487 /* Assets.xcassets */,
-				47E77B4326163C8700017487 /* Info.plist */,
+				47E77B4A26163CA600017487 /* Aliment.swift */,
+				47E77B572616470E00017487 /* AlimentsList.swift */,
+				47E77B5A2616476200017487 /* AlimentRow.swift */,
+				47E77BF126164E1D00017487 /* Info.plist */,
 				47E77B4026163C8700017487 /* Preview Content */,
 			);
 			path = AlimentsApp;
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47E77B3D26163C8700017487 /* ContentView.swift in Sources */,
-				47E77B3B26163C8700017487 /* AlimentsAppApp.swift in Sources */,
+				47E77B522616417000017487 /* SceneDelegate.swift in Sources */,
+				47E77B4F2616416800017487 /* AppDelegate.swift in Sources */,
+				47E77B4B26163CA600017487 /* Aliment.swift in Sources */,
+				47E77B3D26163C8700017487 /* AlimentDetail.swift in Sources */,
+				47E77B582616470E00017487 /* AlimentsList.swift in Sources */,
+				47E77B5B2616476200017487 /* AlimentRow.swift in Sources */,
+				47E77B552616443900017487 /* StatText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
